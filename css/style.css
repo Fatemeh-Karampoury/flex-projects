@@ -1,0 +1,56 @@
+
+#section3 .items{
+    display: flex;
+}
+
+
+#section3 .items div{
+flex: 1;
+
+}
+
+#section3 .items img{
+   
+    border-radius: 50%;
+    margin: 2rem;
+    display: block;
+    width: 60%;
+    }
+    
+.text-center{
+    text-align: center;
+    padding: 1rem;
+ 
+}
+
+
+#contact{
+    display: flex;
+    justify-content: center;
+   
+}
+
+#contact .contact-form{
+flex-basis: 600px;
+text-align: right;
+}
+
+
+#contact .contact-form label{
+    display: block;
+    margin: 1rem;
+    }
+
+
+    #contact .contact-form input ,
+    #contact .contact-form textarea{
+     width: 100%;
+     padding: 0.5rem;
+        }
+
+
+        #main-footer{
+            display: flex;
+            justify-content: center;
+            align-items: center;
+        }
